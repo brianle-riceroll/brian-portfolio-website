@@ -91,3 +91,34 @@
   font-size: 1.7em;
   margin-left: 8em;
 }
+
+.proj-div {
+  font-size: 1.5em;
+  margin-bottom: 2em;
+  margin-top: 5em;
+  align-content: center;
+}
+
+.proj-text {
+  float: right;
+  word-wrap: break-word;
+  width: 800px;
+  margin-right: 5em;
+}
+
+.proj-div img {
+  border-radius: 2em;
+  float: left;
+  margin-left: 5em;
+}
+
+.proj-header {
+  font-size: 5em;
+}
+
+.section-header {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 1em;
+  font-size: 5em;
+}
