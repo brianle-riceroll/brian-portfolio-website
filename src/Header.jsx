@@ -11,7 +11,7 @@ function Header(prop) {
 
                 <nav className="navbar">
                     <ul>
-                        <li><a href="/">About</a></li>
+                        <li><a href="/brian-portfolio-website">About</a></li>
                         <li><a href="/projects">Projects</a></li>
                         <li><a href="mailto:bpl4@pdx.edu">Contact</a></li>
                     </ul>
