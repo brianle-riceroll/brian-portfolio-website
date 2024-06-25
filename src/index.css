@@ -172,9 +172,12 @@
   justify-content: center;
 }
 
-
-.contact-div i {
+.footer-div {
+  display: flex;
+  justify-content: center;
 }
 
-.contact-div p {
+.footer-div p {
+  margin-left: 15px;
 }
+
