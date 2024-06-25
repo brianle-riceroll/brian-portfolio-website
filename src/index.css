@@ -172,6 +172,23 @@
   justify-content: center;
 }
 
+@keyframes rotation {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+.footer-div img {
+  animation-name: rotation;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
 .footer-div {
   display: flex;
   justify-content: center;
