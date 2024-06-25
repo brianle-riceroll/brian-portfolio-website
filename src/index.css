@@ -145,12 +145,44 @@
   }
 }
 
+@keyframes slideDown {
+  from {
+    transform: translateY(-20px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
 .proj-div img:hover {
   animation-name: slideUp;
   animation-duration: 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
+
+.proj-div img:not(:hover) {
+  animation-name: slideDown;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.education img:hover {
+  animation-name: slideUp;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.education img:not(:hover) {
+  animation-name: slideDown;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
 
 .section-header {
   text-align: center;
@@ -172,6 +204,23 @@
   justify-content: center;
 }
 
+.contact-div i:hover {
+  animation-name: slideUp;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.contact-div i:not(:hover) {
+  animation-name: slideDown;
+  animation-duration: 0.3s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+
 @keyframes rotation {
   from {
     transform: rotate(0);
@@ -184,10 +233,11 @@
 
 .footer-div img {
   animation-name: rotation;
-  animation-duration: 10s;
+  animation-duration: 6s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
+
 
 .footer-div {
   display: flex;

@@ -24,7 +24,9 @@ function About() {
                         Studying at Portland State University.
                     </p>
                 </div>
-                <img src={psu_logo} alt="psu logo" className='psu_logo'></img>
+                <a href="https://www.pdx.edu" target='_blank' rel="noreferrer noopener">
+                    <img src={psu_logo} alt="psu logo" className='psu_logo'></img>
+                </a>
             </div>
         </>
     );

@@ -21,8 +21,6 @@ function Contact() {
                     <i class="fa-brands fa-gitlab fa-7x" style={{marginRight: "2em"}}></i>
                     <p style={{fontSize: "2em"}}>GitLab</p>
                 </a>
-
-
             </div> 
         </>
     );
