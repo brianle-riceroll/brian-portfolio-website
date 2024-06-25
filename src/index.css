@@ -23,6 +23,7 @@
 }
 
 .name-img-div {
+  display: flex;
   align-items: center;
 }
 
@@ -49,7 +50,18 @@
   text-decoration: none;
 }
 
+.navbar button {
+  color: inherit;
+  font-size: 2em;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
 .navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar button:hover{
   text-decoration: underline;
 }
 
@@ -61,6 +73,7 @@
 }
 
 .about {
+  display: flex;
   margin-bottom: 15em;
   align-content: center;
 }
@@ -68,11 +81,17 @@
 .about-me {
   display: inline-block;
   word-wrap: break-word;
-  width: 800px;
+  max-width: 35em;
 }
 
 .about-text {
   font-size: 1.7em;
+  max-width: 100em;
+}
+
+.education {
+  align-content: center;
+  display: flex;
 }
 
 .psu_logo {
@@ -80,23 +99,24 @@
   float: right;
   margin-left: 5em;
   margin-right: 10em;
-}
-
-.education {
-  align-content: center;
+  height: 15em;
 }
 
 .education-text {
   text-align: left;
+  float: left;
   font-size: 1.7em;
-  margin-left: 8em;
+  margin-left: 6em;
 }
 
+
 .proj-div {
+  display: flex;
+  justify-content: space-between;
   font-size: 1.5em;
   margin-bottom: 2em;
   margin-top: 5em;
-  align-content: center;
+  align-items: center;
 }
 
 .proj-text {
@@ -104,6 +124,7 @@
   word-wrap: break-word;
   width: 800px;
   margin-right: 5em;
+  margin-left: 5em;
 }
 
 .proj-div img {
@@ -116,9 +137,44 @@
   font-size: 5em;
 }
 
+@keyframes slideUp {
+  from {}
+
+  to {
+    transform: translateY(-20px);
+  }
+}
+
+.proj-div img:hover {
+  animation-name: slideUp;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
 .section-header {
   text-align: center;
   text-decoration: underline;
   margin-bottom: 1em;
   font-size: 5em;
+}
+
+.contact-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-div a {
+  display: flex;
+  text-decoration: none;
+  margin-bottom: 3em;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+
+.contact-div i {
+}
+
+.contact-div p {
 }

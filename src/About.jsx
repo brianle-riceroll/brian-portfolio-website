@@ -17,7 +17,6 @@ function About() {
             </div>
 
             <div className='education'>
-                <img src={psu_logo} alt="psu logo" className='psu_logo'></img>
 
                 <div className="education-text">
                     <h1>Computer Science Major</h1>
@@ -25,6 +24,7 @@ function About() {
                         Studying at Portland State University.
                     </p>
                 </div>
+                <img src={psu_logo} alt="psu logo" className='psu_logo'></img>
             </div>
         </>
     );

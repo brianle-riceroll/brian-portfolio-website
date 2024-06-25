@@ -9,6 +9,7 @@ function Project(props) {
                 </a>
                 <div className="proj-text">
                     <h1>{props.title}</h1>
+                    <h4>{props.date}</h4>
                     <p>{props.description}</p>
                 </div>
             </div>
@@ -18,12 +19,14 @@ function Project(props) {
 
 Project.propTypes = {
     title: PropTypes.string,
+    date: PropTypes.string,
     description: PropTypes.string,
     link: PropTypes.string,
 }
 
 Project.defaultProps = {
     title: "Project",
+    date: "Date",
     description: "Description",
     link: '/'
 }

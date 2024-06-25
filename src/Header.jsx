@@ -1,4 +1,5 @@
 import image from './assets/8bit_me_transparent.png'
+import { useRef } from 'react'
 
 function Header(prop) {
     return(
@@ -11,9 +12,17 @@ function Header(prop) {
 
                 <nav className="navbar">
                     <ul>
-                        <li><a href="/brian-portfolio-website">About</a></li>
-                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Projects</a></li>
-                        <li><a href="mailto:bpl4@pdx.edu">Contact</a></li>
+                        <button style={{border: "none", background: "none", cursor: "pointer"}} onClick={() => {
+                            prop.aboutRef.current.scrollIntoView({behavior: 'smooth'})
+                        }}>About</button>
+
+                        <button style={{border: "none", background: "none", cursor: "pointer"}} onClick={() => {
+                            prop.projRef.current.scrollIntoView({behavior: 'smooth'})
+                        }}>Projects</button>
+                        
+                        <button style={{border: "none", background: "none", cursor: "pointer"}} onClick={() => {
+                            prop.contactRef.current.scrollIntoView({behavior: 'smooth'})
+                        }}>Contact</button>
                     </ul>
                 </nav>
             </div>
