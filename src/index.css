@@ -208,7 +208,6 @@
   animation-name: slideUp;
   animation-duration: 0.3s;
   animation-iteration-count: 1;
-  animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
 
@@ -216,7 +215,6 @@
   animation-name: slideDown;
   animation-duration: 0.3s;
   animation-iteration-count: 1;
-  animation-timing-function: linear;
   animation-fill-mode: forwards;
 }
 
