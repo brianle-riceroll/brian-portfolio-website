@@ -26,7 +26,7 @@ function App() {
 
       <About></About>
       <div style={{marginBottom: "10em"}}></div>
-     g<h1 className="section-header" ref={projRef}>Projects</h1>
+      <h1 className="section-header" ref={projRef}>Projects</h1>
 
       <Project title="Sales Tax Calculator App" 
         description="A simple Android app that accurately calculates your sales taxes, grabbing the most up-to-date sales tax rates from all US states and cities. Developed in Android Studio utilizing the Jetpack Compose framework."
