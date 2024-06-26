@@ -76,7 +76,10 @@
 .about {
   display: flex;
   margin-bottom: 15em;
+  margin-right: 10em;
   align-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .about-me {
@@ -87,13 +90,15 @@
 
 .about-text {
   font-size: 1.7em;
-  max-width: 100em;
+  max-width: 60em;
 }
 
 .education {
   align-content: center;
   align-items: center;
+  justify-content: center;
   display: flex;
+  margin-right: 15em;
 }
 
 .psu_logo {
@@ -114,7 +119,7 @@
 
 .proj-div {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   font-size: 1.5em;
   margin-bottom: 2em;
   margin-top: 5em;
