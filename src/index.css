@@ -16,10 +16,16 @@
 
 .header-div {
   display: flex;
+  position: sticky;
   justify-content: space-between;
   align-items: center;
   padding-right: 1em;
   padding-left: 1em;
+  top: 0px;
+  background-color: rgba(95, 121, 250, 0.349);
+  backdrop-filter: blur(5px);
+  border-radius: 2em;
+  z-index: 10;
 }
 
 .name-img-div {
@@ -32,7 +38,7 @@
 }
 
 .title {
-  font-size: 2em;
+  font-size: 1.5em;
   display: inline-block;
   vertical-align: middle;
 }
@@ -43,26 +49,21 @@
   gap: 2em;
 }
 
-.navbar a {
-  color: inherit;
-  font-size: 2em;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  text-decoration: none;
-}
-
 .navbar button {
   color: inherit;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   text-decoration: none;
-}
-
-.navbar a:hover {
-  text-decoration: underline;
+  border: 5px solid transparent;
+  border-radius: 1em;
+  background: none;
+  transition-duration: 0.4s;
 }
 
 .navbar button:hover{
-  text-decoration: underline;
+  border-radius: 1em;
+  border: 5px solid transparent;
+  background: fixed rgb(0, 21, 46);;
 }
 
 .portrait {
@@ -91,22 +92,23 @@
 
 .education {
   align-content: center;
+  align-items: center;
   display: flex;
 }
 
 .psu_logo {
   border-radius: 2em;
   float: right;
-  margin-left: 5em;
-  margin-right: 10em;
-  height: 15em;
+  margin-left: 15em;
+  height: 25em;
+  z-index: 1;
 }
 
 .education-text {
   text-align: left;
   float: left;
   font-size: 1.7em;
-  margin-left: 6em;
+  margin-left: 9em;
 }
 
 
@@ -131,6 +133,7 @@
   border-radius: 2em;
   float: left;
   margin-left: 5em;
+  transition-duration: 0.4s;
 }
 
 .proj-header {
@@ -160,6 +163,7 @@
   animation-duration: 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .proj-div img:not(:hover) {
@@ -169,11 +173,16 @@
   animation-fill-mode: forwards;
 }
 
+.education img {
+  transition-duration: 0.4s;
+}
+
 .education img:hover {
   animation-name: slideUp;
   animation-duration: 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .education img:not(:hover) {
@@ -186,9 +195,9 @@
 
 .section-header {
   text-align: center;
-  text-decoration: underline;
   margin-bottom: 1em;
-  font-size: 5em;
+  font-size: 4.5em;
+  scroll-margin-top: 100px;
 }
 
 .contact-div {
@@ -246,3 +255,60 @@
   margin-left: 15px;
 }
 
+.intro-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2em;
+  flex-direction: column;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.intro-name {
+  border-right: 4px solid;
+  line-height: 65px;
+  margin-top: 5px;
+  animation-name: cursor;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: steps(1, end);
+}
+
+.intro-div button {
+  border-radius: 0.5em;
+  border: none;
+  background-color: rgb(0, 21, 46);
+  padding: 20px 20px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.intro-buttons {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1em;
+}
+
+.intro-div button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.intro-div i:hover {
+  animation-name: slideUp;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+
+.intro-div i:not(:hover) {
+  animation-name: slideDown;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}

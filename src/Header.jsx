@@ -12,15 +12,15 @@ function Header(prop) {
 
                 <nav className="navbar">
                     <ul>
-                        <button style={{border: "none", background: "none", cursor: "pointer"}} onClick={() => {
+                        <button style={{cursor: "pointer"}} onClick={() => {
                             prop.aboutRef.current.scrollIntoView({behavior: 'smooth'})
                         }}>About</button>
 
-                        <button style={{border: "none", background: "none", cursor: "pointer"}} onClick={() => {
+                        <button style={{cursor: "pointer"}} onClick={() => {
                             prop.projRef.current.scrollIntoView({behavior: 'smooth'})
                         }}>Projects</button>
                         
-                        <button style={{border: "none", background: "none", cursor: "pointer"}} onClick={() => {
+                        <button style={{cursor: "pointer"}} onClick={() => {
                             prop.contactRef.current.scrollIntoView({behavior: 'smooth'})
                         }}>Contact</button>
                     </ul>

@@ -1,5 +1,5 @@
 import portrait from './assets/portrait.jpg'
-import psu_logo from './assets/psu-logo.jpg'
+import psu_logo from './assets/psulogo_vert_spot.jpg'
 
 function About() {
     return(
