@@ -23,7 +23,7 @@ function App() {
         projRef={projRef} 
         contactRef={contactRef}
         ></Header> 
-      <div style={{marginBottom: "8em"}}></div>
+      <div style={{marginBottom: "10em"}}></div>
       <Intro></Intro>
       <h1 className="section-header" ref={aboutRef}>About.</h1>
 
