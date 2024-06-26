@@ -1,17 +1,17 @@
 import { useRef } from 'react'
-import Intro from './Intro.jsx'
-import Header from './Header.jsx'
-import About from './About.jsx'
-import Project from './Project.jsx'
-import Contact from './Contact.jsx'
-import Footer from './Footer.jsx'
-import stc_app from './assets/stc_app.png'
-import ftp_img from './assets/ftp_img.png'
-import discord_bot from './assets/discordbot.gif'
-import sss_img from './assets/sss_img.gif'
+import Intro from '../Intro.jsx'
+import Header from '../Header.jsx'
+import About from '../About.jsx'
+import Project from '../Project.jsx'
+import Contact from '../Contact.jsx'
+import Footer from '../Footer.jsx'
+import stc_app from '../assets/stc_app.png'
+import ftp_img from '../assets/ftp_img.png'
+import discord_bot from '../assets/discordbot.gif'
+import sss_img from '../assets/sss_img.gif'
 
 
-function App() {
+function Home() {
   const aboutRef = useRef(null);
   const projRef = useRef(null);
   const contactRef = useRef(null);
@@ -23,17 +23,13 @@ function App() {
         projRef={projRef} 
         contactRef={contactRef}
         ></Header> 
-      <div style={{marginBottom: "10em"}}></div>
+      <div style={{marginBottom: "8em"}}></div>
       <Intro></Intro>
-      <h1 className="section-header" ref={aboutRef}>About.</h1>
+      <h1 className="section-header" ref={aboutRef}>About</h1>
 
       <About></About>
       <div style={{marginBottom: "10em"}}></div>
-<<<<<<< HEAD
       <h1 className="section-header" ref={projRef}>Projects</h1>
-=======
-      <h1 className="section-header" ref={projRef}>Projects.</h1>
->>>>>>> d6bb2ef887cb1b549c8b2356d3c1bbe8f41c4b89
 
       <Project title="Sales Tax Calculator App" 
         description="A simple Android app that accurately calculates your sales taxes, grabbing the most up-to-date sales tax rates from all US states and cities. Developed in Android Studio utilizing the Jetpack Compose framework."
@@ -62,12 +58,13 @@ function App() {
 
 
       <div style={{marginBottom: "10em"}}></div>
-      <h1 className="section-header" ref={contactRef}>Contact.</h1>
+      <h1 className="section-header" ref={contactRef}>Contact</h1>
       <Contact></Contact>
       <Footer></Footer>
 
     </>
   );
+
 }
 
-export default App
+export default Home
