@@ -6,7 +6,7 @@
   color-scheme: dark;
   color: rgba(255, 255, 255, 0.87);
   background: radial-gradient(circle, rgb(41, 76, 250) 0%, rgb(124, 150, 245) 100%);
-  background-attachment: fixed;
+  background-attachment: local, scroll;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
