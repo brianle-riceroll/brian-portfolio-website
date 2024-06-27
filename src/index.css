@@ -156,6 +156,7 @@
   float: left;
   margin-left: 5em;
   transition-duration: 0.4s;
+  height: 300px;
 }
 
 .proj-header {
@@ -360,7 +361,7 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   ._8bit-img {
     height: 70px;
   }
@@ -433,7 +434,8 @@
   }
 
   .about-me {
-
+    width: 80vw;
+    word-wrap: break-word;
   }
 
   .about-text {
@@ -448,8 +450,7 @@
   }
 
   .proj-div img {
-    width: 100vw;
-    height: auto;
+    width: 90vw;
     margin-left: auto;
   }
 
@@ -477,7 +478,7 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
   ._8bit-img {
     height: 70px;
   }
@@ -522,7 +523,7 @@
   .header-div {
     display: flex;
     position: sticky;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     top: 0;
     background-color: rgba(95, 121, 250, 0.349);
@@ -533,6 +534,8 @@
 
   .about {
     flex-direction: column;
+    align-items: center;
+    align-content: center;
   }
 
   .education {
@@ -541,7 +544,7 @@
 
   .education-text p {
     word-wrap: break-word;
-    width: 13em;
+    width: 80vw;
   }
 
   .about {
@@ -550,7 +553,8 @@
   }
 
   .about-me {
-
+    width: 80vw;
+    word-wrap: break-word;
   }
 
   .about-text {
@@ -565,14 +569,15 @@
   }
 
   .proj-div img {
-    width: 100vw;
+    width: 90vw;
     height: auto;
     margin-left: auto;
   }
 
   .proj-text {
     display: flex;
-    width: 14em;
+    width: 80vw;
+    word-wrap: break-word;
     flex-direction: column;
     align-items: center;
   }

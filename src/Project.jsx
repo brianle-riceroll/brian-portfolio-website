@@ -5,7 +5,7 @@ function Project(props) {
         <>
             <div className="proj-div">
                 <a href={props.link} target="_blank" rel="noopener noreferrer">
-                    <img src={props.img} alt="picture" height="300px"></img>
+                    <img src={props.img} alt="picture"></img>
                 </a>
                 <div className="proj-text">
                     <h1>{props.title}</h1>
