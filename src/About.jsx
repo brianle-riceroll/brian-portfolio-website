@@ -11,7 +11,7 @@ function About() {
                     <p className="about-me">
                         I am a CS student at Portland State University with a passion for developing
                         software and applications. I can be described as someone who is eager to learn
-                        new concepts and apply them to real-world development.
+                        new concepts and create something fun and interesting out of it.
                     </p>
                 </div>
             </div>
