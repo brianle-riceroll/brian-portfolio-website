@@ -421,6 +421,11 @@
   .education {
     flex-direction: column-reverse;
   }
+  
+  .education-text p {
+    word-wrap: break-word;
+    width: 13em;
+  }
 
   .about {
     margin-right: auto;
@@ -532,6 +537,11 @@
 
   .education {
     flex-direction: column-reverse;
+  }
+
+  .education-text p {
+    word-wrap: break-word;
+    width: 13em;
   }
 
   .about {
