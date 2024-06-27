@@ -31,7 +31,7 @@ function Intro() {
                     </a>
                 </div>
                 <div style={{marginBottom: "8em"}}>
-                    <p>See more about me below!</p>
+                    <p class="see-more">See more about me below!</p>
                 </div>
             </div>
         </>
