@@ -37,7 +37,7 @@
   float: left;
 }
 
-.title {
+.home-button {
   font-size: 1.5em;
   display: inline-block;
   vertical-align: middle;
@@ -156,7 +156,6 @@
   float: left;
   margin-left: 5em;
   transition-duration: 0.4s;
-  height: 300px;
 }
 
 .proj-header {
@@ -361,124 +360,7 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 400px) {
-  ._8bit-img {
-    height: 70px;
-  }
-
-  .title {
-    display: none;
-    visibility: hidden;
-    font-size: 0em;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  .intro-div {
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    flex-direction: column;
-    font-size: 1.2em;
-    overflow-x: hidden;
-  }
-
-  .intro-div button {
-    padding: 12px 12px;
-  }
-
-  .intro-name {
-    line-height: 40px;
-  }
-
-  .navbar ul {
-    display: flex;
-    flex-direction: row;
-    column-gap: 0em;
-    align-items: center;
-    align-content: center;
-  }
-
-  .navbar button {
-    font-size: 1em;
-  }
-
-  .header-div {
-    display: flex;
-    position: sticky;
-    justify-content: center;
-    align-items: center;
-    top: 0;
-    background-color: rgba(95, 121, 250, 0.349);
-    backdrop-filter: blur(5px);
-    border-radius: 2em;
-    z-index: 10;
-  }
-
-  .about {
-    flex-direction: column;
-  }
-
-  .education {
-    flex-direction: column-reverse;
-  }
-  
-  .education-text p {
-    word-wrap: break-word;
-    width: 13em;
-  }
-
-  .about {
-    margin-right: auto;
-    flex-direction: column;
-  }
-
-  .about-me {
-    width: 80vw;
-    word-wrap: break-word;
-  }
-
-  .about-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .proj-div {
-    flex-direction: column;
-  }
-
-  .proj-div img {
-    width: 90vw;
-    margin-left: auto;
-  }
-
-  .proj-text {
-    display: flex;
-    width: 16em;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .portrait {
-    margin-left: 0em;
-    margin-right: 0em;
-    border-radius: 2em;
-  }
-
-  .contact-div{
-    font-size: 1em;
-    width: 100vw;
-  }
-
-  .contact-div a{
-    display: flex;
-    font-size: 0.7em;
-  }
-}
-
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 600px) {
   ._8bit-img {
     height: 70px;
   }
@@ -523,19 +405,129 @@
   .header-div {
     display: flex;
     position: sticky;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     top: 0;
     background-color: rgba(95, 121, 250, 0.349);
     backdrop-filter: blur(5px);
     border-radius: 2em;
     z-index: 10;
+    padding-right: 2em;
   }
 
   .about {
     flex-direction: column;
+  }
+
+  .education {
+    flex-direction: column-reverse;
+  }
+  
+  .education-text p {
+    word-wrap: break-word;
+    width: 13em;
+  }
+
+  .about {
+    margin-right: auto;
+    flex-direction: column;
+  }
+
+  .about-me {
+
+  }
+
+  .about-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .proj-div {
+    flex-direction: column;
+  }
+
+  .proj-div img {
+    width: 100vw;
+    height: auto;
+    margin-left: auto;
+  }
+
+  .proj-text {
+    display: flex;
+    width: 16em;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .portrait {
+    margin-left: 0em;
+    margin-right: 0em;
+    border-radius: 2em;
+  }
+
+  .contact-div{
+    font-size: 1em;
+    width: 100vw;
+  }
+
+  .contact-div a{
+    display: flex;
+    font-size: 0.7em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  ._8bit-img {
+    height: 70px;
+  }
+
+  .home-button {
+    font-size: 0em;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .intro-div {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    font-size: 1.2em;
+    overflow-x: hidden;
+  }
+
+  .intro-div button {
+    padding: 12px 12px;
+  }
+
+  .intro-name {
+    line-height: 40px;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0em;
     align-items: center;
     align-content: center;
+  }
+
+  .navbar button {
+    font-size: 1em;
+  }
+
+  .header-div {
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    background-color: rgba(95, 121, 250, 0.349);
+    backdrop-filter: blur(5px);
+    border-radius: 2em;
+    z-index: 10;
   }
 
   .education {
@@ -554,7 +546,6 @@
 
   .about-me {
     width: 80vw;
-    word-wrap: break-word;
   }
 
   .about-text {
@@ -571,13 +562,11 @@
   .proj-div img {
     width: 90vw;
     height: auto;
-    margin-left: auto;
   }
 
   .proj-text {
     display: flex;
-    width: 80vw;
-    word-wrap: break-word;
+    width: 14em;
     flex-direction: column;
     align-items: center;
   }
