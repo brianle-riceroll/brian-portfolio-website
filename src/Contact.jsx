@@ -3,8 +3,8 @@ function Contact() {
         <>
             <div className="contact-div">
                 <a href="mailto:bpl4@pdx.edu" style={{color: "inherit"}} target="_blank" rel="noopener noreferrer">
-                    <i className="fa-regular fa-envelope fa-7x" style={{marginRight: "1em"}}></i>
-                    <p style={{fontSize: "2em"}}>bpl4@pdx.edu</p>
+                    <i className="fa-regular fa-envelope fa-7x" style={{marginRight: "2em"}}></i>
+                    <p style={{fontSize: "2em", marginLeft: "0.5em", marginRight: "0.5em"}}>Email</p>
                 </a>
 
                 <a href="https://www.linkedin.com/in/brian-le-ab78b0264/" style={{color: "inherit"}} target="_blank" rel="noopener noreferrer">

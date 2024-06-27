@@ -60,7 +60,24 @@
   transition-duration: 0.4s;
 }
 
+.header-div button {
+  color: inherit;
+  font-size: 1.5em;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  border: 5px solid transparent;
+  border-radius: 1em;
+  background: none;
+  transition-duration: 0.4s;
+}
+
 .navbar button:hover{
+  border-radius: 1em;
+  border: 5px solid transparent;
+  background: fixed rgb(0, 21, 46);;
+}
+
+.header-div button:hover {
   border-radius: 1em;
   border: 5px solid transparent;
   background: fixed rgb(0, 21, 46);;
@@ -208,6 +225,7 @@
 .contact-div {
   display: flex;
   flex-direction: column;
+  align-items: center;
   font-size: 0.8em;
 }
 
@@ -215,8 +233,11 @@
   display: flex;
   text-decoration: none;
   margin-bottom: 3em;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 50em;
+  flex-direction: row;
+  margin-left: 50em;
 }
 
 .contact-div i:hover {
@@ -456,7 +477,7 @@
     height: 70px;
   }
 
-  .title {
+  .home-button {
     display: none;
     visibility: hidden;
     font-size: 0em;

@@ -26,7 +26,11 @@ function Header(prop) {
                     <button style={{background: "none", border: "none", }} onClick={() => {count == 5 ? img = slime : count += 1}}>
                         <img src={img} alt="8bit image" height="100" className="_8bit-img"></img>
                     </button>
-                    <p className="title">{prop.name}</p>
+
+                    <button className="home-button" style={{cursor: "pointer"}} onClick={() => {
+                            prop.introRef.current.scrollIntoView({behavior: 'smooth', block: 'end'})
+                    }}>{prop.name}</button>
+
                 </div>
 
                 <nav className="navbar">

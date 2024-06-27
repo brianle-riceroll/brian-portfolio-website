@@ -14,7 +14,7 @@ function Intro() {
                         <button style={{fontSize: ".8em"}}>My Resume</button>
                     </a>
 
-                    <a href="mailto:bpl4@pdx.edu" style={{color: "inherit"}} target="_blank" rel="noopener noreferrer">
+                    <a href="mailto:brianp.le@outlook.com" style={{color: "inherit"}} target="_blank" rel="noopener noreferrer">
                         <i className="fa-regular fa-envelope fa-2x" style={{marginRight: "0em"}}></i>
                     </a>
 
@@ -31,7 +31,7 @@ function Intro() {
                     </a>
                 </div>
                 <div style={{marginBottom: "8em"}}>
-                    <p class="see-more">See more about me below!</p>
+                    <p className="see-more">See more about me below!</p>
                 </div>
             </div>
         </>

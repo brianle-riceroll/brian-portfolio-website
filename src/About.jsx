@@ -11,7 +11,7 @@ function About() {
                     <p className="about-me">
                         I am a CS student at Portland State University with a passion for developing
                         software and applications. I can be described as someone who is eager to learn
-                        new ideas and apply them to real-world development.
+                        new concepts and apply them to real-world development.
                     </p>
                 </div>
             </div>
@@ -21,7 +21,7 @@ function About() {
                 <div className="education-text">
                     <h1>Computer Science Major</h1>
                     <p>
-                        Studying at Portland State University.
+                        Studying at Portland State University
                     </p>
                 </div>
                 <a href="https://www.pdx.edu" target='_blank' rel="noreferrer noopener">

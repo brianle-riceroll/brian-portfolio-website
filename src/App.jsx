@@ -15,21 +15,23 @@ function App() {
   const aboutRef = useRef(null);
   const projRef = useRef(null);
   const contactRef = useRef(null);
+  const introRef = useRef(null);
 
   return (
     <>
       <Header name="Brian Le" className="header"  
         aboutRef={aboutRef}
         projRef={projRef} 
-        contactRef={contactRef}
+        contactRef={contactRef} 
+        introRef={introRef}
         ></Header> 
-      <div style={{marginBottom: "10em"}}></div>
+      <div style={{marginBottom: "10em"}} ref={introRef}></div>
       <Intro></Intro>
-      <h1 className="section-header" ref={aboutRef}>About.</h1>
+      <h1 className="section-header" ref={aboutRef}>About</h1>
 
       <About></About>
       <div style={{marginBottom: "10em"}}></div>
-      <h1 className="section-header" ref={projRef}>Projects.</h1>
+      <h1 className="section-header" ref={projRef}>Projects</h1>
 
       <Project title="Sales Tax Calculator App" 
         description="A simple Android app that accurately calculates your sales taxes, grabbing the most up-to-date sales tax rates from all US states and cities. Developed in Android Studio utilizing the Jetpack Compose framework."
@@ -58,7 +60,7 @@ function App() {
 
 
       <div style={{marginBottom: "10em"}}></div>
-      <h1 className="section-header" ref={contactRef}>Contact.</h1>
+      <h1 className="section-header" ref={contactRef}>Contact</h1>
       <Contact></Contact>
       <Footer></Footer>
 
