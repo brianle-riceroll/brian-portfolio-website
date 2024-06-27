@@ -156,6 +156,7 @@
   float: left;
   margin-left: 5em;
   transition-duration: 0.4s;
+  height: 12em;
 }
 
 .proj-header {
