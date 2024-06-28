@@ -34,7 +34,6 @@
 }
 
 ._8bit-img {
-  float: left;
 }
 
 .home-button {
@@ -361,10 +360,15 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 600px) {
-  ._8bit-img {
-    height: 70px;
+@media screen and (max-width: 540px) {
+  .name-img-div  {
+    display: none;
+    visibility: hidden;
+    font-size: 1.2em;
   }
+}
+/*
+@media screen and (max-width: 600px) {
 
   .home-button {
     display: none;
@@ -391,6 +395,10 @@
     line-height: 40px;
   }
 
+  .intro-text {
+    font-size: 1.5em;
+  }
+
   .navbar ul {
     display: flex;
     flex-direction: row;
@@ -406,7 +414,7 @@
   .header-div {
     display: flex;
     position: sticky;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     top: 0;
     background-color: rgba(95, 121, 250, 0.349);
@@ -414,6 +422,10 @@
     border-radius: 2em;
     z-index: 10;
     padding-right: 2em;
+  }
+
+  ._8bit-img {
+    height: 70px;
   }
 
   .about {
@@ -450,9 +462,10 @@
   }
 
   .proj-div img {
-    width: 100vw;
+    width: 90vw;
     height: auto;
     margin-left: auto;
+    margin-right: auto;
   }
 
   .proj-text {
@@ -479,15 +492,16 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+*/
+
+@media screen and (max-width: 1250px) {
   ._8bit-img {
     height: 70px;
   }
 
-  .home-button {
-    font-size: 0em;
-    margin: 0px;
-    padding: 0px;
+  .name-img-div {
+    visibility: hidden;
+    display: none;
   }
 
   .intro-div {
@@ -499,6 +513,10 @@
     overflow-x: hidden;
   }
 
+  .intro-text {
+    font-size: 1.2em;
+  }
+
   .intro-div button {
     padding: 12px 12px;
   }
@@ -507,16 +525,19 @@
     line-height: 40px;
   }
 
+  .navbar {
+    display: flex;
+  }
+
   .navbar ul {
     display: flex;
     flex-direction: row;
     column-gap: 0em;
-    align-items: center;
-    align-content: center;
+    margin-right: 2em;
   }
 
   .navbar button {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   .header-div {
@@ -563,11 +584,13 @@
   .proj-div img {
     width: 90vw;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .proj-text {
     display: flex;
-    width: 14em;
+    width: 80vw;
     flex-direction: column;
     align-items: center;
   }
@@ -580,7 +603,7 @@
 
   .contact-div{
     font-size: 1em;
-    width: 100vw;
+    width: 90vw;
   }
 
   .contact-div a{
