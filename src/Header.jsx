@@ -2,20 +2,6 @@ import image from './assets/8bit_me_transparent.png'
 import slime from './assets/Player.png'
 import { useRef } from 'react'
 
-let count = 0;
-
-function easterEgg() {
-    if (count == 5) {
-        image = slime;
-    }
-
-    else {
-        count += 1;
-    }
-
-    console.log(count);
-}
-
 function Header(prop) {
     let img = image;
 
@@ -23,7 +9,7 @@ function Header(prop) {
         <>
             <div className="header-div">
                 <div className="name-img-div">
-                    <button style={{background: "none", border: "none", }} onClick={() => {count == 5 ? img = slime : count += 1}}>
+                    <button style={{background: "none", border: "none", }}>
                         <img src={img} alt="8bit image" height="100" className="_8bit-img"></img>
                     </button>
 
