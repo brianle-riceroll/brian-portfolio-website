@@ -135,7 +135,7 @@
 
 .proj-div {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   font-size: 1.5em;
   margin-bottom: 2em;
   margin-top: 5em;
