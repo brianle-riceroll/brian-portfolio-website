@@ -12,6 +12,7 @@ import react from './assets/react.svg'
 import nodejs from './assets/file-type-node.svg'
 import aws from './assets/aws.svg'
 import firebase from './assets/file-type-firebase.svg'
+import git from './assets/git.svg'
 
 // <h2 className="languages">Languages</h2>
 
@@ -81,6 +82,10 @@ function Skills() {
 
                     <div className='circle-container'>
                         <img className='skills-icons' src={firebase} alt="firebase"></img>
+                    </div>
+
+                    <div className='circle-container'>
+                        <img className='skills-icons' src={git} alt="git"></img>
                     </div>
 
                 </div>
