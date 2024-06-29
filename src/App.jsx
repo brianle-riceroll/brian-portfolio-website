@@ -17,6 +17,7 @@ function App() {
   const projRef = useRef(null);
   const contactRef = useRef(null);
   const introRef = useRef(null);
+  const skillsRef = useRef(null);
 
   return (
     <>
@@ -24,7 +25,8 @@ function App() {
         aboutRef={aboutRef}
         projRef={projRef} 
         contactRef={contactRef} 
-        introRef={introRef}
+        introRef={introRef} 
+        skillsRef={skillsRef}
         ></Header> 
       <div style={{marginBottom: "10em"}} ref={introRef}></div>
       <Intro></Intro>
@@ -33,7 +35,7 @@ function App() {
       <About></About>
       <div style={{marginBottom: "10em"}}></div>
 
-      <h1 className='section-header'>Skills</h1>
+      <h1 className='section-header' ref={skillsRef}>Skills</h1>
       <Skills></Skills>
       <div style={{marginBottom: "20em"}} ref={introRef}></div>
 
