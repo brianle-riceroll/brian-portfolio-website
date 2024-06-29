@@ -421,12 +421,14 @@
   border-radius: 50%;
   background: rgb(21,54,116);
   background: linear-gradient(321deg, rgba(21,54,116,1) 15%, rgba(253,224,45,1) 100%);
+  transition-duration: 0.4s;
 }
 
 .circle-container:hover {
   animation-name: slideUp;
   animation-duration: 0.4s;
   animation-fill-mode: forwards;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.445),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .circle-container:not(:hover) {
