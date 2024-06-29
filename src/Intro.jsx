@@ -1,4 +1,4 @@
-import resume from './assets/LE-R.pdf'
+import resume from './assets/LE_R.pdf'
 
 function Intro() {
     return(

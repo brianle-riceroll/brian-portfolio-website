@@ -2,6 +2,7 @@ import { useRef } from 'react'
 import Intro from './Intro.jsx'
 import Header from './Header.jsx'
 import About from './About.jsx'
+import Skills from './Skills.jsx'
 import Project from './Project.jsx'
 import Contact from './Contact.jsx'
 import Footer from './Footer.jsx'
@@ -31,8 +32,12 @@ function App() {
 
       <About></About>
       <div style={{marginBottom: "10em"}}></div>
-      <h1 className="section-header" ref={projRef}>Projects</h1>
 
+      <h1 className='section-header'>Skills</h1>
+      <Skills></Skills>
+      <div style={{marginBottom: "20em"}} ref={introRef}></div>
+
+      <h1 className="section-header" ref={projRef}>Projects</h1>
       <Project title="Sales Tax Calculator App" 
         description="A simple Android app that accurately calculates your sales taxes, grabbing the most up-to-date sales tax rates from all US states and cities. Developed in Android Studio utilizing the Jetpack Compose framework."
         img={stc_app} 

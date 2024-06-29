@@ -355,7 +355,6 @@
   animation-fill-mode: forwards;
 }
 
-
 .see-more {
   width: 0;
   line-height: 40px;
@@ -364,6 +363,76 @@
   animation-fill-mode: forwards;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.skills-div {
+  display: flex;
+  flex-direction: column;
+  column-gap: 5em;
+  align-items: center;
+  row-gap: 5em;
+}
+
+.languages {
+  margin-left: 1em;
+  font-size: 2em;
+}
+
+@keyframes floating {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-20px);
+  }
+}
+
+
+.skills-icons-div {
+  display: flex;
+  column-gap: 3em;
+  row-gap: 2em;
+  flex-wrap: wrap;
+  width: 70vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-icons {
+  height: 7em;
+}
+
+.skills-icons-big {
+  height: 5.5em;
+}
+
+.skills-icons-huge {
+  height: 4em;
+}
+
+
+.circle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: rgb(21,54,116);
+  background: linear-gradient(321deg, rgba(21,54,116,1) 15%, rgba(253,224,45,1) 100%);
+}
+
+.circle-container:hover {
+  animation-name: slideUp;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+}
+
+.circle-container:not(:hover) {
+  animation-name: slideDown;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
 }
 
 @media screen and (max-width: 540px) {
@@ -616,4 +685,38 @@
     display: flex;
     font-size: 0.7em;
   }
+
+  .skills-icons {
+    height: 4em;
+  }
+
+  .skills-icons-big {
+    height: 3.8em;
+  }
+
+  .skills-icons-huge {
+    height: 2.8em;
+  }
+
+  .skills-icons-div {
+    display: flex;
+    column-gap: 3em;
+    row-gap: 2em;
+    flex-wrap: wrap;
+    width: 85vw;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circle-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: rgb(21,54,116);
+  background: linear-gradient(321deg, rgba(21,54,116,1) 15%, rgba(253,224,45,1) 100%);
+  }
+
 }

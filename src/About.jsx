@@ -7,7 +7,7 @@ function About() {
             <div className="about">
                 <img src={portrait} alt="Portrait" height="400" className='portrait'></img>
                 <div className='about-text'>
-                    <h1>Brian Le.</h1>
+                    <h1>Brian Le</h1>
                     <p className="about-me">
                         I am a CS student at Portland State University with a passion for developing
                         software and applications. I can be described as someone who is eager to learn
