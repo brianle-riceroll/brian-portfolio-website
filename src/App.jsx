@@ -37,7 +37,7 @@ function App() {
 
       <h1 className='section-header' ref={skillsRef}>Skills</h1>
       <Skills></Skills>
-      <div style={{marginBottom: "20em"}} ref={introRef}></div>
+      <div style={{marginBottom: "20em"}}></div>
 
       <h1 className="section-header" ref={projRef}>Projects</h1>
       <Project title="Sales Tax Calculator App" 
