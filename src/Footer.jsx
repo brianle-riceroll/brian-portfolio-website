@@ -1,4 +1,5 @@
 import react_pic from './assets/react.svg'
+import Fun from './Fun.jsx'
 
 function Footer() {
     return(

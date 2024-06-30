@@ -1,6 +1,7 @@
 import image from './assets/8bit_me_transparent.png'
 import slime from './assets/Player.png'
 import { useRef } from 'react'
+import Easteregg from './Easteregg';
 
 /*
                 <div className="name-img-div">
@@ -16,16 +17,11 @@ import { useRef } from 'react'
                 */
 
 function Header(prop) {
-    let img = image;
-
     return(
         <>
             <div className="header-div">
                 <div className="name-img-div">
-                    <button style={{background: "none", border: "none", }}>
-                        <img src={img} alt="8bit image" height="100" className="_8bit-img"></img>
-                    </button>
-
+                    <Easteregg></Easteregg> 
                     <button className="home-button" style={{cursor: "pointer"}} onClick={() => {
                             prop.introRef.current.scrollIntoView({behavior: 'smooth', block: 'end'})
                     }}>{prop.name}</button>

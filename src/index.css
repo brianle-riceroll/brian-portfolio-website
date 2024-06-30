@@ -285,6 +285,13 @@
   margin-left: 15px;
 }
 
+.fun-div {
+  display: flex;
+  align-self: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
 .intro-div {
   display: flex;
   justify-content: center;
@@ -733,6 +740,11 @@
   border-radius: 50%;
   background: rgb(21,54,116);
   background: linear-gradient(321deg, rgba(21,54,116,1) 15%, rgba(253,224,45,1) 100%);
+  }
+
+  .fun-div {
+    display: none;
+    visibility: hidden;
   }
 
 }

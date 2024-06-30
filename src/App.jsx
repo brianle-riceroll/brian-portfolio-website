@@ -6,6 +6,7 @@ import Skills from './Skills.jsx'
 import Project from './Project.jsx'
 import Contact from './Contact.jsx'
 import Footer from './Footer.jsx'
+import Fun from './Fun.jsx'
 import stc_app from './assets/stc_app.png'
 import ftp_img from './assets/ftp_img.png'
 import discord_bot from './assets/discordbot.gif'
@@ -70,6 +71,7 @@ function App() {
       <h1 className="section-header" ref={contactRef}>Contact</h1>
       <Contact></Contact>
       <Footer></Footer>
+      <Fun></Fun>
 
     </>
   );
