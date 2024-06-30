@@ -5,8 +5,8 @@ function Intro() {
         <>
             <div className="intro-div">
                 <div className="intro-text">
-                    <h1 className="intro-greeting" style={{marginBottom: "5px"}}>Hi, I am</h1>
-                    <h1 className="intro-name">Brian Le.</h1>
+                    <h1 className="intro-greeting" style={{marginBottom: "5px", fontFamily: "JetBrains Mono, system-ui"}}>Hi, I am</h1>
+                    <h1 className="intro-name" style={{fontFamily: "JetBrains Mono"}}>Brian Le.</h1>
                 </div>
 
                 <div className="intro-buttons">
