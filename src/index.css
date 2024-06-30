@@ -290,6 +290,7 @@
   align-self: flex-end;
   margin: 0;
   padding: 0;
+  color: rgba(255, 255, 255, 0);
 }
 
 .intro-div {
