@@ -26,7 +26,7 @@ function App() {
         <Routes>
             <Route index element ={<Home></Home>}></Route>
             <Route path="/home" element ={<Home></Home>}></Route>
-            <Route path="/app/privacy_policy" element ={<Privacy_Policy></Privacy_Policy>}></Route>
+            <Route path="/app_privacy_policy" element ={<Privacy_Policy></Privacy_Policy>}></Route>
         </Routes>
       </BrowserRouter>
     </>
