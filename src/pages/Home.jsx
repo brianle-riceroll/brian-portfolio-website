@@ -2,35 +2,46 @@ import { useRef } from 'react'
 import Intro from '../Intro.jsx'
 import Header from '../Header.jsx'
 import About from '../About.jsx'
+import Skills from '../Skills.jsx'
 import Project from '../Project.jsx'
 import Contact from '../Contact.jsx'
 import Footer from '../Footer.jsx'
+import Fun from '../Fun.jsx'
 import stc_app from '../assets/stc_app.png'
 import ftp_img from '../assets/ftp_img.png'
 import discord_bot from '../assets/discordbot.gif'
 import sss_img from '../assets/sss_img.gif'
 
 
+
 function Home() {
   const aboutRef = useRef(null);
   const projRef = useRef(null);
   const contactRef = useRef(null);
+  const introRef = useRef(null);
+  const skillsRef = useRef(null);
 
   return (
     <>
       <Header name="Brian Le" className="header"  
         aboutRef={aboutRef}
         projRef={projRef} 
-        contactRef={contactRef}
+        contactRef={contactRef} 
+        introRef={introRef} 
+        skillsRef={skillsRef}
         ></Header> 
-      <div style={{marginBottom: "8em"}}></div>
+      <div style={{marginBottom: "10em"}} ref={introRef}></div>
       <Intro></Intro>
       <h1 className="section-header" ref={aboutRef}>About</h1>
 
       <About></About>
       <div style={{marginBottom: "10em"}}></div>
-      <h1 className="section-header" ref={projRef}>Projects</h1>
 
+      <h1 className='section-header' ref={skillsRef}>Skills</h1>
+      <Skills></Skills>
+      <div style={{marginBottom: "20em"}}></div>
+
+      <h1 className="section-header" ref={projRef}>Projects</h1>
       <Project title="Sales Tax Calculator App" 
         description="A simple Android app that accurately calculates your sales taxes, grabbing the most up-to-date sales tax rates from all US states and cities. Developed in Android Studio utilizing the Jetpack Compose framework."
         img={stc_app} 
@@ -61,6 +72,7 @@ function Home() {
       <h1 className="section-header" ref={contactRef}>Contact</h1>
       <Contact></Contact>
       <Footer></Footer>
+      <Fun></Fun>
 
     </>
   );

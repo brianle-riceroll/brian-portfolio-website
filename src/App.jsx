@@ -1,3 +1,4 @@
+/*
 import { useRef } from 'react'
 import Intro from './Intro.jsx'
 import Header from './Header.jsx'
@@ -11,9 +12,26 @@ import stc_app from './assets/stc_app.png'
 import ftp_img from './assets/ftp_img.png'
 import discord_bot from './assets/discordbot.gif'
 import sss_img from './assets/sss_img.gif'
+*/
+
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Home from './pages/Home.jsx'
+import Privacy_Policy from "./pages/Privacy_Policy.jsx";
 
 
 function App() {
+  return (
+    <>
+      <BrowserRouter>
+        <Routes>
+            <Route index element ={<Home></Home>}></Route>
+            <Route path="/home" element ={<Home></Home>}></Route>
+            <Route path="/privacy_policy" element ={<Privacy_Policy></Privacy_Policy>}></Route>
+        </Routes>
+      </BrowserRouter>
+    </>
+  );
+  /*
   const aboutRef = useRef(null);
   const projRef = useRef(null);
   const contactRef = useRef(null);
@@ -75,6 +93,7 @@ function App() {
 
     </>
   );
+  */
 }
 
 export default App
