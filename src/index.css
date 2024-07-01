@@ -312,19 +312,53 @@
 }
 
 @keyframes cursor {
+  0% {
+    border-right: 4px solid white;
+  }
   50% {
     border-color: transparent;
   }
 }
 
-.intro-name {
+@keyframes temp_cursor {
+  from {
+    border-color: white;
+  }
+
+  to {
+    border-color: transparent;
+  }
+}
+
+@keyframes temp_cursor2 {
+  from {
+    border-right: transparent;
+  }
+
+  to {
+    border-right: white 4px solid;
+  }
+}
+
+
+.intro-greeting {
   border-right: 4px solid;
   line-height: 65px;
   margin-top: 5px;
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
-  animation: cursor 0.5s step-end 1s infinite alternate, typing 0.8s steps(9);
+  animation: typing 1s steps(8) forwards, temp_cursor 1s step-end 1 forwards;
+}
+
+.intro-name {
+  border-right: transparent;
+  line-height: 65px;
+  margin-top: 5px;
+  width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: temp_cursor2 1s step-end 1 forwards, cursor step-end 1s 2s infinite alternate, typing 0.8s 1s steps(9) forwards;
   /*
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
