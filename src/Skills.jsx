@@ -13,6 +13,9 @@ import nodejs from './assets/file-type-node.svg'
 import aws from './assets/aws.svg'
 import firebase from './assets/file-type-firebase.svg'
 import git from './assets/git.svg'
+import springboot from './assets/spring.svg'
+import java from './assets/java-original.svg'
+import mongodb from './assets/mongodb-original-wordmark.svg'
 
 // <h2 className="languages">Languages</h2>
 
@@ -37,6 +40,10 @@ function Skills() {
 
                     <div className='circle-container'>
                         <img className='skills-icons' src={python} alt="python"></img>
+                    </div>
+
+                    <div className='circle-container'>
+                        <img className='skills-icons-big' src={java} alt="java"></img>
                     </div>
 
                     <div className='circle-container'>
@@ -69,6 +76,10 @@ function Skills() {
                     </div>
 
                     <div className='circle-container'>
+                        <img className='skills-icons' src={mongodb} alt="mongodb"></img>
+                    </div>
+
+                    <div className='circle-container'>
                         <img className='skills-icons' src={react} alt="react"></img>
                     </div>
 
@@ -77,13 +88,13 @@ function Skills() {
                     </div>
 
                     <div className='circle-container'>
-                        <img className='skills-icons' src={nodejs} alt="nodejs"></img>
+                        <img className='skills-icons' src={springboot} alt="springboot"></img>
                     </div>
 
                     <div className='circle-container'>
                         <img className='skills-icons' src={firebase} alt="firebase"></img>
                     </div>
-
+                    
                     <div className='circle-container'>
                         <img className='skills-icons' src={git} alt="git"></img>
                     </div>
