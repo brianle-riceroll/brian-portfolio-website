@@ -299,6 +299,7 @@
   align-items: center;
   font-size: 2em;
   flex-direction: column;
+  margin-top: 7em;
 }
 
 @keyframes typing {
@@ -404,7 +405,7 @@
   width: 0;
   line-height: 40px;
   animation: typing 2s; 
-  animation-delay: 1s;
+  animation-delay: 2s;
   animation-fill-mode: forwards;
   white-space: nowrap;
   overflow: hidden;
