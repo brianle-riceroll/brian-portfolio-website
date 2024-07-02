@@ -415,6 +415,7 @@
   animation-fill-mode: forwards;
 }
 
+
 .see-more {
   width: 0;
   line-height: 40px;
@@ -452,7 +453,7 @@
 .skills-icons-div {
   display: flex;
   column-gap: 3em;
-  row-gap: 2em;
+  row-gap: 0em;
   flex-wrap: wrap;
   width: 70vw;
   justify-content: center;
@@ -471,6 +472,26 @@
   height: 4em;
 }
 
+.skill-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-icon-container p {
+  transform: translateY(-30px);
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  font-size: 1.5em;
+  transition-duration: 0.3s;
+  z-index: -1;
+}
+
+.skill-icon-container .circle-container:hover + p {
+  opacity: 1;
+  transform: translateY(-8px);
+}
 
 .circle-container {
   display: flex;
@@ -789,14 +810,18 @@
   }
   
   .circle-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: rgb(21,54,116);
-  background: linear-gradient(321deg, rgba(21,54,116,1) 15%, rgba(253,224,45,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: rgb(21,54,116);
+    background: linear-gradient(321deg, rgba(21,54,116,1) 15%, rgba(253,224,45,1) 100%);
+  }
+
+  .skill-icon-container p {
+    font-size: 1em;
   }
 
   .fun-div {

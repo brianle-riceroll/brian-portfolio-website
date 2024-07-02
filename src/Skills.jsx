@@ -16,6 +16,7 @@ import git from './assets/git.svg'
 import springboot from './assets/spring.svg'
 import java from './assets/java-original.svg'
 import mongodb from './assets/mongodb-original-wordmark.svg'
+import SkillsIcons from './SkillIcons.jsx'
 
 // <h2 className="languages">Languages</h2>
 
@@ -25,80 +26,29 @@ function Skills() {
             <div>
                 <h2 className="languages">Languages</h2>
                 <div className="skills-icons-div">
-                    <div className='circle-container'>
-                        <img className="skills-icons" src={cpp} alt="c++"></img>
-                    </div>
-
-                    <div className='circle-container'>
-                        <img className='skills-icons' src={csharp} alt="cs"></img>
-                    </div>
-
-                    <div className='circle-container'>
-                        <img className='skills-icons' src={c} alt="c"></img>
-                    </div>
-
-
-                    <div className='circle-container'>
-                        <img className='skills-icons' src={python} alt="python"></img>
-                    </div>
-
-                    <div className='circle-container'>
-                        <img className='skills-icons-big' src={java} alt="java"></img>
-                    </div>
-
-                    <div className='circle-container'>
-                        <img className='skills-icons-big' src={kotlin} alt="kotlin"></img>
-                    </div>
-
-                    <div className='circle-container'>
-                        <img className='skills-icons-big' src={js} alt="js"></img>
-                    </div>
-
-                    <div className='circle-container'>
-                        <img className='skills-icons-big' src={ts} alt="ts"></img>
-                    </div>
-
-                    <div className='circle-container'>
-                        <img className='skills-icons' src={html} alt="html"></img>
-                    </div>
-
-                    <div className='circle-container'>
-                        <img className='skills-icons' src={css} alt="css"></img>
-                    </div>
+                    <SkillsIcons src={cpp} alt="c++" name="C++" type="default"></SkillsIcons>
+                    <SkillsIcons src={csharp} alt="c#" name="C#" type="default"></SkillsIcons>
+                    <SkillsIcons src={c} alt="c" name="C" type="default"></SkillsIcons>
+                    <SkillsIcons src={python} alt="python" name="Python" type="default"></SkillsIcons>
+                    <SkillsIcons src={java} alt="java" name="Java" type="default"></SkillsIcons>
+                    <SkillsIcons src={kotlin} alt="kotlin" name="Kotlin" type="big"></SkillsIcons>
+                    <SkillsIcons src={js} alt="js" name="Javascript" type="big"></SkillsIcons>
+                    <SkillsIcons src={ts} alt="ts" name="Typescript" type="big"></SkillsIcons>
+                    <SkillsIcons src={html} alt="html" name="HTML" type="default"></SkillsIcons>
+                    <SkillsIcons src={css} alt="css" name="CSS" type="default"></SkillsIcons>
                 </div>
             </div>
 
             <div>
                 <h2 className="languages">Technologies</h2>
                 <div className="skills-icons-div">
-                    <div className='circle-container'>
-                        <img className='skills-icons' src={psql} alt="psql"></img>
-                    </div>
-
-                    <div className='circle-container'>
-                        <img className='skills-icons' src={mongodb} alt="mongodb"></img>
-                    </div>
-
-                    <div className='circle-container'>
-                        <img className='skills-icons' src={react} alt="react"></img>
-                    </div>
-
-                    <div className='circle-container'>
-                        <img className='skills-icons-huge' src={aws} alt="aws"></img>
-                    </div>
-
-                    <div className='circle-container'>
-                        <img className='skills-icons' src={springboot} alt="springboot"></img>
-                    </div>
-
-                    <div className='circle-container'>
-                        <img className='skills-icons' src={firebase} alt="firebase"></img>
-                    </div>
-                    
-                    <div className='circle-container'>
-                        <img className='skills-icons' src={git} alt="git"></img>
-                    </div>
-
+                    <SkillsIcons src={react} alt="react" name="React" type="default"></SkillsIcons>
+                    <SkillsIcons src={psql} alt="psql" name="PostgreSQL" type="default"></SkillsIcons>
+                    <SkillsIcons src={mongodb} alt="mongodb" name="MongoDB" type="default"></SkillsIcons>
+                    <SkillsIcons src={aws} alt="aws" name="AWS" type="huge"></SkillsIcons>
+                    <SkillsIcons src={springboot} alt="springboot" name="Spring Boot" type="default"></SkillsIcons>
+                    <SkillsIcons src={firebase} alt="firebase" name="Firebase" type="default"></SkillsIcons>
+                    <SkillsIcons src={git} alt="git" name="Git" type="default"></SkillsIcons>
                 </div>
             </div>
 
