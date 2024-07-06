@@ -17,6 +17,7 @@ import springboot from './assets/spring.svg'
 import java from './assets/java-original.svg'
 import mongodb from './assets/mongodb-original-wordmark.svg'
 import SkillsIcons from './SkillIcons.jsx'
+import docker from './assets/docker.svg'
 
 // <h2 className="languages">Languages</h2>
 
@@ -47,6 +48,7 @@ function Skills() {
                     <SkillsIcons src={mongodb} alt="mongodb" name="MongoDB" type="default"></SkillsIcons>
                     <SkillsIcons src={aws} alt="aws" name="AWS" type="huge"></SkillsIcons>
                     <SkillsIcons src={springboot} alt="springboot" name="Spring Boot" type="default"></SkillsIcons>
+                    <SkillsIcons src={docker} alt="docker" name="Docker" type="big"></SkillsIcons>
                     <SkillsIcons src={firebase} alt="firebase" name="Firebase" type="default"></SkillsIcons>
                     <SkillsIcons src={git} alt="git" name="Git" type="default"></SkillsIcons>
                 </div>
