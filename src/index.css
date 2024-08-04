@@ -14,9 +14,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-* {
-}
-
 @keyframes fadein {
   from {
     opacity: 0;
@@ -39,7 +36,8 @@
   backdrop-filter: blur(5px);
   border-radius: 2em;
   z-index: 10;
-  animation: fadein 0.5s ease-in 1 forwards;
+  opacity: 0;
+  animation: fadein 0.5s ease-in 2s forwards;
 }
 
 .name-img-div {
