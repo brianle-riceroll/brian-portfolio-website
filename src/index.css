@@ -85,13 +85,13 @@
 .navbar button:hover{
   border-radius: 1em;
   border: 5px solid transparent;
-  background: fixed rgb(0, 21, 46);;
+  background: fixed rgb(0, 21, 46);
 }
 
 .header-div button:hover {
   border-radius: 1em;
   border: 5px solid transparent;
-  background: fixed rgb(0, 21, 46);;
+  background: fixed rgb(0, 21, 46);
 }
 
 .portrait {

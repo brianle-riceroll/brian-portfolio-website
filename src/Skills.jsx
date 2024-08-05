@@ -18,6 +18,7 @@ import java from './assets/java-original.svg'
 import mongodb from './assets/mongodb-original-wordmark.svg'
 import SkillsIcons from './SkillIcons.jsx'
 import docker from './assets/docker.svg'
+import bootstrap from './assets/bootstrap.svg'
 
 // <h2 className="languages">Languages</h2>
 
@@ -44,6 +45,7 @@ function Skills() {
                 <h2 className="languages">Technologies</h2>
                 <div className="skills-icons-div">
                     <SkillsIcons src={react} alt="react" name="React" type="default"></SkillsIcons>
+                    <SkillsIcons src={bootstrap} alt="Bootstrap" name="Bootstrap" type="big"></SkillsIcons>
                     <SkillsIcons src={psql} alt="psql" name="PostgreSQL" type="default"></SkillsIcons>
                     <SkillsIcons src={mongodb} alt="mongodb" name="MongoDB" type="default"></SkillsIcons>
                     <SkillsIcons src={aws} alt="aws" name="AWS" type="huge"></SkillsIcons>
