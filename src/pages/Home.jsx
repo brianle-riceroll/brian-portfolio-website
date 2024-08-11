@@ -44,7 +44,7 @@ function Home() {
 
       <h1 className="section-header" ref={projRef}>Projects</h1>
       <Project title="Kioku! The Online Flashcard" 
-        description="Creating an online learning platform for users to create and manage flashcards for study purposes. Built using React with Bootstrap for the fronted, and Spring Boot with MongoDB for the backend. Hosted and Deployed on Firebase and AWS."
+        description="Creating an online learning platform for users to create and manage flashcards for study purposes. Built using React with Bootstrap for the frontend, and Spring Boot with MongoDB for the backend. Hosted and deployed on Firebase and AWS."
         img={kioku} 
         date="August 2024 - Present"
         link='https://kiokucards.com'></Project>
