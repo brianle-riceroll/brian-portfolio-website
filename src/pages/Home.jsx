@@ -43,6 +43,12 @@ function Home() {
       <div style={{marginBottom: "20em"}}></div>
 
       <h1 className="section-header" ref={projRef}>Projects</h1>
+      <Project title="Kioku! The Online Flashcard" 
+        description="Creating an online learning platform for users to create and manage flashcards for study purposes. Built using React with Bootstrap for the fronted, and Spring Boot with MongoDB for the backend. Hosted and Deployed on Firebase and AWS."
+        img={kioku} 
+        date="August 2024 - Present"
+        link='https://kiokucards.com'></Project>
+
       <Project title="Sales Tax Calculator App" 
         description="A simple Android app that accurately calculates your sales taxes, grabbing the most up-to-date sales tax rates from all US states and cities. Developed in Android Studio utilizing the Jetpack Compose framework."
         img={stc_app} 
