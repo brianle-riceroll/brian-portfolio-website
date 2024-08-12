@@ -63,9 +63,9 @@ function Home() {
         link='https://gitlab.cecs.pdx.edu/bpl4/linux-ftp-bpl-4'></Project>
 
       <Project title="Slimes, Swords, and Shotgun Game" 
-        description="Developing an exciting 2D platformer game in Unity. Play as a slime armed with a sword and shotgun and blast your way each level."
+        description="Prototyped a 2D platformer game in Unity, playing as a slime armed with a sword and shotgun and blast your way each level."
         img={sss_img} 
-        date="June 2023 - Present"
+        date="June 2023 - September 2023"
         link='https://www.youtube.com/watch?v=2Ghoo2YYpDA'></Project>
 
       <Project title="Discord Bot" 
