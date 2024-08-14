@@ -34,8 +34,8 @@ function Skills() {
                     <SkillsIcons src={python} alt="python" name="Python" type="default"></SkillsIcons>
                     <SkillsIcons src={java} alt="java" name="Java" type="default"></SkillsIcons>
                     <SkillsIcons src={kotlin} alt="kotlin" name="Kotlin" type="big"></SkillsIcons>
-                    <SkillsIcons src={js} alt="js" name="Javascript" type="big"></SkillsIcons>
-                    <SkillsIcons src={ts} alt="ts" name="Typescript" type="big"></SkillsIcons>
+                    <SkillsIcons src={js} alt="js" name="JavaScript" type="big"></SkillsIcons>
+                    <SkillsIcons src={ts} alt="ts" name="TypeScript" type="big"></SkillsIcons>
                     <SkillsIcons src={html} alt="html" name="HTML" type="default"></SkillsIcons>
                     <SkillsIcons src={css} alt="css" name="CSS" type="default"></SkillsIcons>
                 </div>
