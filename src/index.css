@@ -399,7 +399,7 @@
 }
 
 .intro-div i:hover {
-  animation-name: slideUp;
+  animation-name: floating;
   animation-duration: 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -407,7 +407,7 @@
 
 
 .intro-div i:not(:hover) {
-  animation-name: slideDown;
+  animation-name: resetFloat;
   animation-duration: 0.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -443,7 +443,17 @@
   }
 
   to {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes resetFloat {
+  from {
+    transform: translateY(-10px);
+  }
+
+  to {
+    transform: translateY(0);
   }
 }
 
@@ -680,7 +690,7 @@
   }
 
   .intro-text {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
 
   .intro-div button {
@@ -688,7 +698,7 @@
   }
 
   .intro-name {
-    line-height: 40px;
+    line-height: 80px;
   }
 
   .navbar {
