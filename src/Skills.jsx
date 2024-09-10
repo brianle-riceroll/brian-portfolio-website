@@ -19,6 +19,8 @@ import mongodb from './assets/mongodb-original-wordmark.svg'
 import SkillsIcons from './SkillIcons.jsx'
 import docker from './assets/docker.svg'
 import bootstrap from './assets/bootstrap.svg'
+import azure from './assets/azure.svg'
+import fastapi from './assets/fastapi.svg'
 
 // <h2 className="languages">Languages</h2>
 
@@ -49,7 +51,9 @@ function Skills() {
                     <SkillsIcons src={psql} alt="psql" name="PostgreSQL" type="default"></SkillsIcons>
                     <SkillsIcons src={mongodb} alt="mongodb" name="MongoDB" type="default"></SkillsIcons>
                     <SkillsIcons src={aws} alt="aws" name="AWS" type="huge"></SkillsIcons>
+                    <SkillsIcons src={azure} alt="azure" name="Azure" type="default"></SkillsIcons>
                     <SkillsIcons src={springboot} alt="springboot" name="Spring Boot" type="default"></SkillsIcons>
+                    <SkillsIcons src={fastapi} alt="fastapi" name="FastAPI" type="default"></SkillsIcons>
                     <SkillsIcons src={docker} alt="docker" name="Docker" type="big"></SkillsIcons>
                     <SkillsIcons src={firebase} alt="firebase" name="Firebase" type="default"></SkillsIcons>
                     <SkillsIcons src={git} alt="git" name="Git" type="default"></SkillsIcons>
