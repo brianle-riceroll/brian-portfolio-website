@@ -46,7 +46,7 @@ function Home() {
       <Project title="Kioku! The Online Flashcard" 
         description="Creating an online full-stack web app for users to create and manage flashcards for studying. Built using React with Bootstrap for the frontend, and Spring Boot with MongoDB for the backend. Hosted on Firebase and backend deployed on AWS."
         img={kioku} 
-        date="August 2024 - Present"
+        date="Aug. 2024 - Present"
         link='https://kiokucards.com'></Project>
 
       <Project title="Sales Tax Calculator App" 
@@ -65,7 +65,7 @@ function Home() {
       <Project title="Slimes, Swords, and Shotgun Game" 
         description="Prototyped a 2D platformer game in Unity, playing as a slime armed with a sword and shotgun and blast your way each level."
         img={sss_img} 
-        date="June 2023 - September 2023"
+        date="June 2023 - Sep. 2023"
         link='https://www.youtube.com/watch?v=2Ghoo2YYpDA'></Project>
 
       <Project title="Discord Bot" 

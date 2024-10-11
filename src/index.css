@@ -126,13 +126,31 @@
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-right: 15em;
+  margin-bottom: 15em;
+  column-gap: 15em;
+}
+
+.work {
+
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: center;
+  align-content: center;
+  column-gap: 15em;
+}
+
+.work-text {
+  font-size: 1.7em;
+  max-width: 25em;
+}
+
+.standard_logo {
+  border-radius: 2em;
 }
 
 .psu_logo {
   border-radius: 2em;
-  float: right;
-  margin-left: 15em;
   height: 25em;
   z-index: 1;
 }
@@ -141,7 +159,6 @@
   text-align: left;
   float: left;
   font-size: 1.7em;
-  margin-left: 9em;
 }
 
 
@@ -220,6 +237,44 @@
 }
 
 .education img:not(:hover) {
+  animation-name: slideDown;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.work img {
+  transition-duration: 0.4s;
+}
+
+.work img:hover {
+  animation-name: slideUp;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.about img:not(:hover) {
+  animation-name: slideDown;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.about img {
+  transition-duration: 0.4s;
+}
+
+.about img:hover {
+  animation-name: slideUp;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.work img:not(:hover) {
   animation-name: slideDown;
   animation-duration: 0.5s;
   animation-iteration-count: 1;
@@ -743,6 +798,10 @@
   .education-text p {
     word-wrap: break-word;
     width: 80vw;
+  }
+
+  .work {
+    flex-direction: column-reverse;
   }
 
   .about {
