@@ -804,6 +804,10 @@
     flex-direction: column-reverse;
   }
 
+  .work img {
+    height: 13em;
+  }
+
   .about {
     margin-right: auto;
     flex-direction: column;
