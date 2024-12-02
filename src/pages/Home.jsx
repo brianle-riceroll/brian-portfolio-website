@@ -18,6 +18,7 @@ import kioku from '../assets/kioku_banner.png'
 
 function Home() {
   const aboutRef = useRef(null);
+  const expRef = useRef(null);
   const projRef = useRef(null);
   const contactRef = useRef(null);
   const introRef = useRef(null);
@@ -28,6 +29,7 @@ function Home() {
       <Header name="Brian Le" className="header"  
         aboutRef={aboutRef}
         projRef={projRef} 
+        expRef={expRef}
         contactRef={contactRef} 
         introRef={introRef} 
         skillsRef={skillsRef}
@@ -40,7 +42,7 @@ function Home() {
       <div style={{marginBottom: "10em"}}></div>
 
 
-      <h1 className="section-header" ref={aboutRef}>Experience</h1>
+      <h1 className="section-header" ref={expRef}>Experience</h1>
       <Experience></Experience>
       <div style={{marginBottom: "10em"}}></div>
 
