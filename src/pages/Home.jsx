@@ -2,6 +2,7 @@ import { useRef } from 'react'
 import Intro from '../Intro.jsx'
 import Header from '../Header.jsx'
 import About from '../About.jsx'
+import Experience from '../Experience.jsx'
 import Skills from '../Skills.jsx'
 import Project from '../Project.jsx'
 import Contact from '../Contact.jsx'
@@ -33,9 +34,14 @@ function Home() {
         ></Header> 
       <div style={{marginBottom: "10em"}} ref={introRef}></div>
       <Intro></Intro>
-      <h1 className="section-header" ref={aboutRef}>About</h1>
 
+      <h1 className="section-header" ref={aboutRef}>About</h1>
       <About></About>
+      <div style={{marginBottom: "10em"}}></div>
+
+
+      <h1 className="section-header" ref={aboutRef}>Experience</h1>
+      <Experience></Experience>
       <div style={{marginBottom: "10em"}}></div>
 
       <h1 className='section-header' ref={skillsRef}>Skills</h1>

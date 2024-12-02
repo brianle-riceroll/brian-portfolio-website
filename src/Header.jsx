@@ -36,6 +36,10 @@ function Header(prop) {
                             }}>About</button>
 
                             <button style={{cursor: "pointer"}} onClick={() => {
+                                prop.aboutRef.current.scrollIntoView({behavior: 'smooth'})
+                            }}>Experience</button>
+
+                            <button style={{cursor: "pointer"}} onClick={() => {
                                 prop.skillsRef.current.scrollIntoView({behavior: 'smooth'})
                             }}>Skills</button>
 
