@@ -131,18 +131,28 @@
 }
 
 .work {
-
   display: flex;
-  justify-content: center;
   flex-direction: row-reverse;
   align-items: center;
-  align-content: center;
+  justify-content: space-between;
   column-gap: 15em;
+  max-width: 100em;
+  width: 100%;
 }
 
 .work-text {
   font-size: 1.7em;
   max-width: 25em;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.work-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 3em;
 }
 
 .standard_logo {
