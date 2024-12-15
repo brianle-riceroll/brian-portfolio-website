@@ -26,10 +26,10 @@ function Experience() {
                     <div className='work-text'>
                         <div>
                             <h1 style={{marginBottom: "0em"}}>Software Development Engineer in Test</h1>
-                            <h4 style={{marginTop: "0em"}}>Aug. 2024 - Present</h4>
+                            <h4 style={{marginTop: "0em"}}>Aug. 2024 - Dec. 2024</h4>
                         </div>
 
-                        <p>Interning as an SDET at The Standard</p>
+                        <p>Interned as an SDET at The Standard</p>
                     </div>
 
                     <a href="https://www.standard.com" target='_blank' rel="noreferrer noopener">
