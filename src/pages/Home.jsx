@@ -11,6 +11,7 @@ import Fun from '../Fun.jsx'
 import stc_app from '../assets/stc_app.png'
 import ftp_img from '../assets/ftp_img.png'
 import discord_bot from '../assets/discordbot.gif'
+import discord_ai from '../assets/discord_ai.gif'
 import sss_img from '../assets/sss_img.gif'
 import kioku from '../assets/kioku_banner.png'
 
@@ -51,6 +52,13 @@ function Home() {
       <div style={{marginBottom: "20em"}}></div>
 
       <h1 className="section-header" ref={projRef}>Projects</h1>
+
+      <Project title="Discord AI Chatbot" 
+        description="Developing a Discord AI Chatbot, responding to user comments with the ability to imitate any character from your favorite TV shows, movies, and more. Leveraging the ChatGPT-4 API for generating responses."
+        img={discord_ai} 
+        date="Dec. 2024 - Present"
+        link='https://github.com/brianle-riceroll/discord_ai_chatbot'></Project>
+
       <Project title="Kioku! The Online Flashcard" 
         description="Creating an online full-stack web app for users to create and manage flashcards for studying. Built using React with Bootstrap for the frontend, and Spring Boot with MongoDB for the backend. Hosted on Firebase and backend deployed on AWS."
         img={kioku} 
