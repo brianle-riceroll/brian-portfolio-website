@@ -10,15 +10,15 @@ function Experience() {
                 <div className='work'>
                     <div className='work-text'>
                         <div>
-                            <h1 style={{marginBottom: "0em"}}>QA Automations Engineer</h1>
+                            <h1 style={{marginBottom: "0em"}}>Software Developer</h1>
                             <h4 style={{marginTop: "0em"}}>Jan. 2025</h4>
                         </div>
 
-                        <p>Incoming intern at Multnomah County</p>
+                        <p>Interning as a Software Developer at Multnomah County</p>
                     </div>
 
                     <a href="https://multco.us/" target='_blank' rel="noreferrer noopener">
-                        <img src={multco_logo} alt="multnomah county logo" className='standard_logo' height="225"></img>
+                        <img src={multco_logo} alt="multnomah county logo" className='mult_logo'></img>
                     </a>
                 </div>
 
