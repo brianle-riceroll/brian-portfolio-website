@@ -27,7 +27,7 @@ function About() {
                         <h4 style={{marginTop: "0em"}}>Sep. 2021 - Present</h4>
                     </div>
                     <p>
-                        Studying at Portland State University
+                        Studying at Portland State University and an active participant of the PCEP program.
                     </p>
                 </div>
                 <a href="https://www.pdx.edu" target='_blank' rel="noreferrer noopener">

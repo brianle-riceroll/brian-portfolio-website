@@ -14,7 +14,7 @@ function Experience() {
                             <h4 style={{marginTop: "0em"}}>Jan. 2025</h4>
                         </div>
 
-                        <p>Interning as a Software Developer at Multnomah County</p>
+                        <p>Interning as a Software Developer at Multnomah County through PSU's PCEP program.</p>
                     </div>
 
                     <a href="https://multco.us/" target='_blank' rel="noreferrer noopener">
@@ -29,7 +29,9 @@ function Experience() {
                             <h4 style={{marginTop: "0em"}}>Aug. 2024 - Dec. 2024</h4>
                         </div>
 
-                        <p>Interned as an SDET at The Standard</p>
+                        <p>Developed and integrated data integrity checks for data curations code and maintained code for encryptions of PIIs in development environments
+                            with Pyspark and Databricks. Developed and provisioned new APIs for product teams and for testing purposes in Azure.
+                        </p>
                     </div>
 
                     <a href="https://www.standard.com" target='_blank' rel="noreferrer noopener">
@@ -44,7 +46,9 @@ function Experience() {
                             <h4 style={{marginTop: "0em"}}>Jan. 2024 - Present</h4>
                         </div>
 
-                        <p>Working as a casual IT Assistant at Portland Community College</p>
+                        <p>Working as a casual IT Assistant at Portland Community College. Responsible for maintaining and provisioning hundreds of computers 
+                            campus-wide.
+                        </p>
                     </div>
 
                     <a href="https://www.pcc.edu" target='_blank' rel="noreferrer noopener">
