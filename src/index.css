@@ -175,6 +175,9 @@
   text-align: left;
   float: left;
   font-size: 1.7em;
+  max-width: 30em;
+  word-wrap: break-word;
+  padding-left: 2em;
 }
 
 
