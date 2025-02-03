@@ -11,7 +11,7 @@ function Experience() {
                     <div className='work-text'>
                         <div>
                             <h1 style={{marginBottom: "0em"}}>Software Developer</h1>
-                            <h4 style={{marginTop: "0em"}}>Jan. 2025</h4>
+                            <h4 style={{marginTop: "0em"}}>Jan. 2025 - Present</h4>
                         </div>
 
                         <p>Interning as a Software Developer at Multnomah County through PSU's PCEP program.</p>
