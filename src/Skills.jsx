@@ -30,28 +30,27 @@ function Skills() {
             <div>
                 <h2 className="languages">Languages</h2>
                 <div className="skills-icons-div">
-                    <SkillsIcons src={cpp} alt="c++" name="C++" type="default"></SkillsIcons>
-                    <SkillsIcons src={csharp} alt="c#" name="C#" type="default"></SkillsIcons>
+                    <SkillsIcons src={cpp} alt="c++" name="⭐C++" type="default"></SkillsIcons>
+                    <SkillsIcons src={python} alt="python" name="⭐Python" type="default"></SkillsIcons>
                     <SkillsIcons src={c} alt="c" name="C" type="default"></SkillsIcons>
-                    <SkillsIcons src={python} alt="python" name="Python" type="default"></SkillsIcons>
-                    <SkillsIcons src={java} alt="java" name="Java" type="default"></SkillsIcons>
-                    <SkillsIcons src={kotlin} alt="kotlin" name="Kotlin" type="big"></SkillsIcons>
+                    <SkillsIcons src={csharp} alt="c#" name="C#" type="default"></SkillsIcons>
                     <SkillsIcons src={js} alt="js" name="JavaScript" type="big"></SkillsIcons>
                     <SkillsIcons src={ts} alt="ts" name="TypeScript" type="big"></SkillsIcons>
                     <SkillsIcons src={html} alt="html" name="HTML" type="default"></SkillsIcons>
                     <SkillsIcons src={css} alt="css" name="CSS" type="default"></SkillsIcons>
+                    <SkillsIcons src={java} alt="java" name="Java" type="default"></SkillsIcons>
+                    <SkillsIcons src={kotlin} alt="kotlin" name="Kotlin" type="big"></SkillsIcons>
                 </div>
             </div>
 
             <div>
                 <h2 className="languages">Technologies</h2>
                 <div className="skills-icons-div">
+                    <SkillsIcons src={azure} alt="azure" name="Azure" type="default"></SkillsIcons>
                     <SkillsIcons src={react} alt="react" name="React" type="default"></SkillsIcons>
                     <SkillsIcons src={bootstrap} alt="Bootstrap" name="Bootstrap" type="big"></SkillsIcons>
                     <SkillsIcons src={psql} alt="psql" name="PostgreSQL" type="default"></SkillsIcons>
                     <SkillsIcons src={mongodb} alt="mongodb" name="MongoDB" type="default"></SkillsIcons>
-                    <SkillsIcons src={aws} alt="aws" name="AWS" type="huge"></SkillsIcons>
-                    <SkillsIcons src={azure} alt="azure" name="Azure" type="default"></SkillsIcons>
                     <SkillsIcons src={springboot} alt="springboot" name="Spring Boot" type="default"></SkillsIcons>
                     <SkillsIcons src={fastapi} alt="fastapi" name="FastAPI" type="default"></SkillsIcons>
                     <SkillsIcons src={docker} alt="docker" name="Docker" type="big"></SkillsIcons>
