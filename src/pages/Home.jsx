@@ -2,6 +2,7 @@ import { useRef } from 'react'
 import Intro from '../Intro.jsx'
 import Header from '../Header.jsx'
 import About from '../About.jsx'
+import Video from '../Video.jsx'
 import Experience from '../Experience.jsx'
 import Skills from '../Skills.jsx'
 import Project from '../Project.jsx'
@@ -14,6 +15,7 @@ import discord_bot from '../assets/discordbot.gif'
 import discord_ai from '../assets/discord_ai.gif'
 import sss_img from '../assets/sss_img.gif'
 import kioku from '../assets/kioku_banner.png'
+
 
 
 
@@ -42,6 +44,9 @@ function Home() {
       <About></About>
       <div style={{marginBottom: "10em"}}></div>
 
+      <h1 className="section-header" ref={aboutRef}>Featured Video</h1>
+      <Video></Video>
+      <div style={{marginBottom: "10em"}}></div>
 
       <h1 className="section-header" ref={expRef}>Experience</h1>
       <Experience></Experience>

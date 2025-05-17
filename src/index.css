@@ -121,6 +121,16 @@
   max-width: 60em;
 }
 
+.player-div {
+  display: flex;
+  justify-content: center;
+}
+
+.player {
+  aspect-ratio: 16 / 9;
+  width: 50%;
+}
+
 .education {
   align-content: center;
   align-items: center;
@@ -831,6 +841,11 @@
 
   .work img {
     height: 13em;
+  }
+  
+  .player {
+    aspect-ratio: 16 / 9;
+    width: 80%;
   }
 
   .about {
