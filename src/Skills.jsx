@@ -28,11 +28,18 @@ function Skills() {
     return(<>
         <div className="skills-div">
             <div>
-                <h2 className="languages">Languages</h2>
+                <h2 className="languages">Primary Languages</h2>
                 <div className="skills-icons-div">
                     <SkillsIcons src={python} alt="python" name="⭐Python" type="default"></SkillsIcons>
                     <SkillsIcons src={cpp} alt="c++" name="C++" type="default"></SkillsIcons>
                     <SkillsIcons src={csharp} alt="c#" name="C#" type="default"></SkillsIcons>
+
+                </div>
+            </div>
+
+            <div>
+                <h2 className = "languages">Other Languages</h2>
+                <div className="skills-icons-div">
                     <SkillsIcons src={c} alt="c" name="C" type="default"></SkillsIcons>
                     <SkillsIcons src={js} alt="js" name="JavaScript" type="big"></SkillsIcons>
                     <SkillsIcons src={html} alt="html" name="HTML" type="default"></SkillsIcons>
