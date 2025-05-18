@@ -60,7 +60,7 @@ function Home() {
       <Project title="Kioku! The Online Flashcard" 
         description="Creating an online full-stack web app for users to create and manage flashcards for studying. Built using React with Bootstrap for the frontend, and Spring Boot with MongoDB for the backend. Hosted on Firebase and backend deployed on AWS."
         img={kioku} 
-        date="Aug. 2024 - Present"
+        date="Aug. 2024 - Nov. 2024"
         link='https://kiokucards.com'></Project>
 
       <Project title="Sales Tax Calculator App" 
