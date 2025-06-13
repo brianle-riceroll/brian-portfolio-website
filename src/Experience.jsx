@@ -43,7 +43,7 @@ function Experience() {
                     <div className='work-text'>
                         <div>
                             <h1 style={{marginBottom: "0em"}}>IT Assistant</h1>
-                            <h4 style={{marginTop: "0em"}}>Jan. 2024 - Present</h4>
+                            <h4 style={{marginTop: "0em"}}>Jan. 2024 - June 2025</h4>
                         </div>
 
                         <p>Working as a casual IT Assistant at Portland Community College. Responsible for maintaining and provisioning hundreds of computers 
