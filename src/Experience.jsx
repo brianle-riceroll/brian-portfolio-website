@@ -11,10 +11,10 @@ function Experience() {
                     <div className='work-text'>
                         <div>
                             <h1 style={{marginBottom: "0em"}}>Software Developer</h1>
-                            <h4 style={{marginTop: "0em"}}>Jan. 2025 - Present</h4>
+                            <h4 style={{marginTop: "0em"}}>Jan. 2025 - June 2025</h4>
                         </div>
 
-                        <p>Interning as a Software Developer at Multnomah County through PSU's PCEP program.</p>
+                        <p>Assisted in refactoring, upgrading from .NET Framework to .NET Core, and developing unit tests for MVC services and applications for the Multnomah County Sheriff's Office.</p>
                     </div>
 
                     <a href="https://multco.us/" target='_blank' rel="noreferrer noopener">
