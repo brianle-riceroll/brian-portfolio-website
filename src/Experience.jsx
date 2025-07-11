@@ -10,6 +10,21 @@ function Experience() {
                 <div className='work'>
                     <div className='work-text'>
                         <div>
+                            <h1 style={{marginBottom: "0em"}}>Cloud Infrastructure Engineer</h1>
+                            <h4 style={{marginTop: "0em"}}>July 2025 - Present</h4>
+                        </div>
+
+                        <p>Interning at the Standard.</p>
+                    </div>
+
+                    <a href="https://www.standard.com" target='_blank' rel="noreferrer noopener">
+                        <img src={standard_logo} alt="standard logo" className='standard_logo' height="300"></img>
+                    </a>
+                </div>
+
+                <div className='work'>
+                    <div className='work-text'>
+                        <div>
                             <h1 style={{marginBottom: "0em"}}>Software Developer</h1>
                             <h4 style={{marginTop: "0em"}}>Jan. 2025 - June 2025</h4>
                         </div>
