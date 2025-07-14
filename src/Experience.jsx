@@ -10,7 +10,7 @@ function Experience() {
                 <div className='work'>
                     <div className='work-text'>
                         <div>
-                            <h1 style={{marginBottom: "0em"}}>Cloud Infrastructure Engineer</h1>
+                            <h1 style={{marginBottom: "0em"}}>Cloud Infrastructure Engineer Intern</h1>
                             <h4 style={{marginTop: "0em"}}>July 2025 - Present</h4>
                         </div>
 
@@ -25,7 +25,7 @@ function Experience() {
                 <div className='work'>
                     <div className='work-text'>
                         <div>
-                            <h1 style={{marginBottom: "0em"}}>Software Developer</h1>
+                            <h1 style={{marginBottom: "0em"}}>Software Developer Intern</h1>
                             <h4 style={{marginTop: "0em"}}>Jan. 2025 - June 2025</h4>
                         </div>
 
@@ -40,7 +40,7 @@ function Experience() {
                 <div className='work'>
                     <div className='work-text'>
                         <div>
-                            <h1 style={{marginBottom: "0em"}}>Software Development Engineer in Test</h1>
+                            <h1 style={{marginBottom: "0em"}}>Software Development Engineer in Test Intern</h1>
                             <h4 style={{marginTop: "0em"}}>Aug. 2024 - Dec. 2024</h4>
                         </div>
 
