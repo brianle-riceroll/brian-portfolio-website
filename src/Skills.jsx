@@ -21,6 +21,7 @@ import docker from './assets/docker.svg'
 import bootstrap from './assets/bootstrap.svg'
 import azure from './assets/azure.svg'
 import fastapi from './assets/fastapi.svg'
+import terraform from './assets/terraform.svg'
 
 // <h2 className="languages">Languages</h2>
 
@@ -51,6 +52,7 @@ function Skills() {
                 <h2 className="languages">Technologies</h2>
                 <div className="skills-icons-div">
                     <SkillsIcons src={azure} alt="azure" name="Azure" type="default"></SkillsIcons>
+                    <SkillsIcons src={terraform} alt="terraform" name="Terraform" type="default"></SkillsIcons>
                     <SkillsIcons src={fastapi} alt="fastapi" name="FastAPI" type="default"></SkillsIcons>
                     <SkillsIcons src={react} alt="react" name="React" type="default"></SkillsIcons>
                     <SkillsIcons src={psql} alt="psql" name="PostgreSQL" type="default"></SkillsIcons>
